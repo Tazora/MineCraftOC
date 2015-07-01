@@ -31,9 +31,18 @@ local function ebene()
 end
 
 for i=0,4,1 do
+<<<<<<< HEAD
     while robot.detectDown()==true do
         robot.swingDown()
     end
     robot.down()
     ebene()
 end
+=======
+while robot.detectDown()==true do
+robot.swingDown()
+end
+robot.down()
+ebene()
+end
+>>>>>>> origin/master
