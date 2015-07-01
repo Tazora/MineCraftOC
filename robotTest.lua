@@ -1,1 +1,1 @@
-print(robot.name)
+print(robot.name())
