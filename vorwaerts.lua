@@ -29,7 +29,7 @@ robot.turnRight()
 end
 
 for i=0,4,1 do
-while robot.detect()==true do
+while robot.detectDown()==true do
 robot.swingDown()
 end
 robot.down()
