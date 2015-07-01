@@ -1,10 +1,12 @@
 local robot = require("robot")
 
+
 local function dig()
   while robot.detect()==true do
     robot.swing()
   end
 end
+
 local function go()
   for i=0,15,1 do
     dig()
@@ -29,6 +31,7 @@ local function ebene()
     go()
     robot.turnRight()
 end
+
 
 for i=0,4,1 do
   while robot.detectDown()==true do
